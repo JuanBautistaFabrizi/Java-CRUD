@@ -14,15 +14,6 @@ public class OperacionesHibernateJPA {
         persona = personaDao.buscarPersonaPorId(persona);
         System.out.println("persona encontrada = " + persona);
         
-        //persona.setNombre("Carlos");
-//        persona.setApellido("Esparza");
-//        persona.setEmail("cesparza@mail.com");
-        //persona.setTelefono("55443322");
-        
-        //personaDao.insertar(persona);
-        
-        //personaDao.modificar(persona);
-        
         personaDao.eliminar(persona);
         personaDao.listar();
         
